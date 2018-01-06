@@ -1,0 +1,12 @@
+body{
+    background:#e6e4e4;
+    font-family:Tahoma,Geneva,sans-serif;
+    font-size:14px;
+    margin:0;
+    padding:0;
+}
+
+#topline{
+    background:#323030;
+    height: 5px;
+}
