@@ -10,3 +10,11 @@ body{
     background:#323030;
     height: 5px;
 }
+
+#header{
+    width:940px;
+    height:95px;
+    margin: 0 auto;
+    border:1px solid red;
+
+}
