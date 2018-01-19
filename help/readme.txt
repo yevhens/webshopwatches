@@ -17,6 +17,8 @@ https://www.youtube.com/watch?v=VyG4M-IzEpY&list=PLlYI2pjPQpxU0t8X1n45HwiMKPYnv7
 5)Размеры - берешь выделение, rectangular marquee tool,CMD+T потом layer 0, потом меняешль с % на пиксели - и бинго
 или просто CMD+T и все видно
 
+6)вырезать изображение - crop tool/slice (3 from the top) =>remove layers => save for web legacy (look slice option for size)
+
 
 
 

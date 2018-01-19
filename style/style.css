@@ -4,6 +4,7 @@ body{
     font-size:14px;
     margin:0;
     padding:0;
+    border:black solid 2px;
 
 }
 
@@ -12,12 +13,14 @@ body{
     background:#323030;
     height: 5px;
 
+
 }
 
 #header{
-    width:940px;
+    width:1000px;
     height:95px;
-    margin: 0 auto;
+    margin:auto;
+
 
 
 }
@@ -61,6 +64,7 @@ body{
     padding:0 7px;
 
 
+
 }
 
 #top-menu a{
@@ -79,4 +83,77 @@ body{
     background: #5c5757;
     display:inline-block;
     margin-bottom: -3px;
+}
+
+.search{
+    width:248px;
+    height:38px;
+    float: left;
+    background: #ffffff;
+    border: #b4b2b2 solid 2px;
+    border-radius: 5px;
+    margin-top:10px;
+    box-sizing: border-box;
+    -moz-animation: border-box;
+    -webkit-animation: border-box;
+
+
+
+}
+
+#searchform input[type="text"]{
+    width:190px;
+    height:23px;
+    margin:4px  0 20px 2px;
+    color:#010101;
+    border:0;
+    vertical-align: middle;
+    padding-left: 10px;
+
+
+
+
+}
+
+#searchform input[type="submit"]{
+    width:30px;
+    height:30px;
+    background:url(../images/search.png) center no-repeat;
+    cursor: pointer;
+    border:0;
+
+}
+
+#empty-btn{
+    background:url(../images/empty.png) center no-repeat;
+    width:155px;
+    height: 29px;
+    display:block;
+    float:left;
+    margin-top:12px;
+    margin-left:2px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top:5px;
+
+
+
+}
+
+#content{
+    width: 940px;
+    height:776px;
+    background: #ffffff;
+    margin-left:205px;
+    box-shadow: 0 5px 15px #423f3f;
+    padding:20px 0;
+
+}
+#leftblock{
+    width:200px;
+    height: 796px;
+    float:left;
+    border-right: solid red 1px;
 }
