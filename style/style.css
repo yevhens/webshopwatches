@@ -144,16 +144,52 @@ body{
 
 #content{
     width: 940px;
-    height:776px;
     background: #ffffff;
     margin-left:205px;
     box-shadow: 0 5px 15px #423f3f;
     padding:20px 0;
+    display: table;
+
 
 }
 #leftblock{
     width:200px;
-    height: 796px;
     float:left;
-    border-right: solid red 1px;
+
+}
+
+.cat-title{
+    width:200px;
+    height:36px;
+    background:url(../images/cat_back.png) top center repeat-y;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+
+}
+.brand{
+    width:200px;
+    margin-top:5px;
+    padding-left:16px;
+    box-sizing: border-box;
+    -moz-animation: border-box;
+    -webkit-animation: border-box;
+}
+
+.brand a{
+    display:block;
+    margin:10px 0;
+    color:black;
+    transition: all 0.2s linear;
+    -moz-animation: all 0.2s linear;
+    -webkit-animation: all 0.2s linear;
+    -o-animation: all 0.2s linear;
+
+}
+
+.brand a:hover{
+    padding-left:10px;
+
 }
